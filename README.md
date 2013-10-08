@@ -20,3 +20,9 @@ However, running `jekyll serve` won't work well: your `/about` page will be serv
 ## The solution
 
 This tiny plugin overwrites `jekyll serve`'s WEBrick configuration to add the `text/html` mime-type for files without an extension, and also gets WEBrick to serve up `/index` by default.
+
+## Installation
+
+Copy `_plugins/jekyll_clean_page_urls.rb` to your Jekyll project's `_plugins` directory.
+
+Run `jekyll serve`.
